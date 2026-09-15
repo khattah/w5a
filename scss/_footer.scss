@@ -1,0 +1,13 @@
+$footer-color: #333;
+$footer-text: white;
+
+footer {
+    background-color: $footer-color;
+    color: $footer-text;
+    text-align: center;
+    padding: 20px;
+
+    p {
+        margin: 0;
+    }
+}

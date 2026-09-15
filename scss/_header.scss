@@ -1,0 +1,26 @@
+$header-color: #333;
+$header-text: white;
+
+header {
+    background-color: $header-color;
+    color: $header-text;
+    padding: 20px;
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        margin-top: 10px;
+
+        a {
+            color: $header-text;
+            text-decoration: none;
+            margin-right: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
